@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-color: #080b10;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+}
+
+.header h1 {
+    color: #45d6b5;
+}
+
+.header p {
+    color: #aaa;
+}
+
+.story {
+    background-color: #111720;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #45d6b5;
+}
+
+.story p {
+    color: #bbb;
+    line-height: 1.6;
+}
+
+.puzzle {
+    background-color: #111720;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.puzzle-number {
+    color: #45d6b5;
+}
+
+.clues {
+    background-color: #090d13;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+textarea {
+    width: 100%;
+    height: 90px;
+    background-color: #090d13;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #45d6b5;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+button {
+    background-color: #45d6b5;
+    border: none;
+    padding: 10px 18px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hint {
+    background-color: transparent;
+    color: #45d6b5;
+    border: 1px solid #45d6b5;
+}
+
+#eva {
+    background-color: #090d13;
+    margin-top: 20px;
+    padding: 15px;
+    border-left: 3px solid #45d6b5;
+}

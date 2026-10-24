@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EscapeAI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="header">
+            <h1>EscapeAI</h1>
+            <p>Room 01 - Locked </p>
+        </div>
+
+        <div class="story">
+            <h2>The Locked Lab</h2>
+
+            <p>
+                You wake up inside an abandoned research lab.
+                The doors are locked and the security system is still active.
+            </p>
+
+            <p>
+                EVA, the lab's AI system, is online.
+                Solve all three puzzles to unlock the exit.
+            </p>
+        </div>
+
+        <div class="puzzle">
+
+            <p class="puzzle-number">Puzzle 1 of 3</p>
+
+            <h2>Emergency Terminal</h2>
+
+            <p>
+                There are three terminals in front of you.
+                Only one of them is telling the truth.
+            </p>
+
+            <div class="clues">
+                <p><b>Terminal A:</b> "The exit is controlled by Terminal B."</p>
+                <p><b>Terminal B:</b> "Terminal A is lying."</p>
+                <p><b>Terminal C:</b> "I do not control the exit."</p>
+            </div>
+
+            <p>
+                Which terminal controls the exit?
+                Explain your reasoning to EVA.
+            </p>
+
+            <textarea
+                id="answer"
+                placeholder="Type your answer here...">
+            </textarea>
+
+            <div class="buttons">
+                <button onclick="checkAnswer()">Submit Answer</button>
+                <button class="hint" onclick="showHint()">Ask EVA for Hint</button>
+            </div>
+
+            <div id="eva">
+                EVA: Waiting for your answer...
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
